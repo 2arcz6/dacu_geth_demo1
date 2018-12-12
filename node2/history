@@ -1,0 +1,10 @@
+eth.getBalance(eth.accounts[0])
+miner.start()
+eth.blockNumber
+admin.addPeer("enode://c19aa16f97a4f14756898a98c18cb943d4f72494f131817121c9b738c563daa71b17016a246452233d3339eb4e186e14365dcadcf048d2388afbc241e2735328@127.0.0.1:30303")
+admin.peers
+eth.syncing
+eth.blockNumber
+miner.stop()
+eth.blockNumber
+eth.accounts

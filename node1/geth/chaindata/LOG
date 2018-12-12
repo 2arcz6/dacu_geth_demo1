@@ -1,0 +1,45 @@
+=============== Nov 28, 2018 (HKT) ===============
+16:37:02.366624 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:37:02.367337 db@open opening
+16:37:02.368867 version@stat F·[] S·0B[] Sc·[]
+16:37:02.369298 db@janitor F·2 G·0
+16:37:02.369358 db@open done T·1.999602ms
+=============== Nov 28, 2018 (HKT) ===============
+16:37:21.036034 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:37:21.036296 version@stat F·[] S·0B[] Sc·[]
+16:37:21.036323 db@open opening
+16:37:21.036404 journal@recovery F·1
+16:37:21.037172 journal@recovery recovering @1
+16:37:21.038032 memdb@flush created L0@2 N·9 S·588B "HΆ..\x83\xa3R,v3":"r\x00\x00..\x83\xa3R,v5"
+16:37:21.039848 version@stat F·[1] S·588B[588B] Sc·[0.25]
+16:37:21.041395 db@janitor F·3 G·0
+16:37:21.041456 db@open done T·5.121183ms
+=============== Nov 28, 2018 (HKT) ===============
+16:37:40.877780 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+16:37:40.878171 version@stat F·[1] S·588B[588B] Sc·[0.25]
+16:37:40.878216 db@open opening
+16:37:40.878364 journal@recovery F·1
+16:37:40.883805 journal@recovery recovering @3
+16:37:40.884450 memdb@flush created L0@5 N·1 S·331B "eth..\x83\xa3R,v11":"eth..\x83\xa3R,v11"
+16:37:40.892827 version@stat F·[2] S·919B[919B] Sc·[0.50]
+16:37:40.896152 db@janitor F·4 G·0
+16:37:40.896239 db@open done T·18.000295ms
+16:45:29.527224 db@close closing
+16:45:29.527688 db@close done T·461.995µs
+=============== Nov 28, 2018 (HKT) ===============
+20:18:16.591512 log@legend F·NumFile S·FileSize N·Entry C·BadEntry B·BadBlock Ke·KeyError D·DroppedEntry L·Level Q·SeqNum T·TimeElapsed
+20:18:16.592996 version@stat F·[2] S·919B[919B] Sc·[0.50]
+20:18:16.593043 db@open opening
+20:18:16.594193 journal@recovery F·1
+20:18:16.599507 journal@recovery recovering @6
+20:18:16.602670 memdb@flush created L0@8 N·669 S·32KiB "5\x18\x94..#g\x81,v679":"\xe4\xeb\xc3..\x16o9,v501"
+20:18:16.608705 version@stat F·[3] S·33KiB[33KiB] Sc·[0.75]
+20:18:16.610526 db@janitor F·5 G·0
+20:18:16.610576 db@open done T·17.52187ms
+20:22:58.708102 table@compaction L0·3 -> L1·0 S·33KiB Q·999
+20:22:58.713359 table@build created L1@11 N·447 S·26KiB "5\x18\x94..#g\x81,v679":"\xe4\xeb\xc3..\x16o9,v501"
+20:22:58.713622 version@stat F·[0 1] S·26KiB[0B 26KiB] Sc·[0.00 0.00]
+20:22:58.714389 table@compaction committed F-2 S-7KiB Ke·0 D·232 T·5.72324ms
+20:22:58.714814 table@remove removed @8
+20:22:58.715248 table@remove removed @5
+20:22:58.715644 table@remove removed @2
